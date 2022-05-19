@@ -34,6 +34,7 @@ static void MenuOption(int option)
         case 0:
             break;
         case 1:
+            AddNumbers();
             break;
         case 2:
             break;
@@ -44,4 +45,17 @@ static void MenuOption(int option)
         default:
             break;
     }
+}
+
+// sum method for question 1
+static void AddNumbers()
+{
+    Console.WriteLine("Adding numbers");
+    Console.WriteLine("Enter the first number: ");
+    int num1 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Enter the second number: ");
+    int num2 = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+
 }
