@@ -1,1 +1,1 @@
-# CSCI2910Lab2
+# CSCI2910-Lab2
